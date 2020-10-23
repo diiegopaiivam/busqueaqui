@@ -18,4 +18,6 @@ $router->get('/', function () use ($router) {
 });
 
 $router->get('/pointers/{id}','PointersController@index');
+$router->get('/point/{id}', 'PointersController@show');
+$router->get('/segments', 'SegmentController@index');
 $router->post('/pointers', 'PointersController@store');

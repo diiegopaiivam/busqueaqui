@@ -61,5 +61,24 @@ class PointersController extends Controller
         }
 
     }
+
+    public function show(Request $request, Response $response, $id)
+    {
+        $point = $this->pointService->getPoint($id);
+
+        if(!$point){
+            return response()->json([
+                'status'    => 0,
+                'result'    => '',
+                'message'   => 'Ponto não encontrado'
+            ]);
+        }
+
+        return response()->json([
+            'status'    => 1,
+            'result'    => $point,
+            'message'   => 'Ponto encontrado com sucesso!'
+        ], 200);
+    }
     //
 }
