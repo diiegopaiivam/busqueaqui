@@ -39,7 +39,7 @@ export default function Home(){
                     {
                         segments.map(segment => {
                             return(
-                                <option value={segment.id}>{segment.segment}</option>
+                                <option value={segment.id}>{segment.segment.substring(0,1).toUpperCase().concat(segment.segment.substring(1))}</option>
                             )
                         })
                     }

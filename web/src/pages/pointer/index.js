@@ -78,10 +78,10 @@ export default function Pointer(){
 
                     <hr />
 
-                    <button type="button" className="contact-button">
+                    <a href={`https://wa.me/55${point.contact}?text=Ola%20Gostaria%20de%20mais%20informacoes`} rel="noopener noreferrer" target="_blank" className="contact-button">
                     <FaWhatsapp size={20} color="#FFF" />
                         Entrar em contato
-                    </button>
+                    </a>
                 </div>
                 </div>
             </main>
