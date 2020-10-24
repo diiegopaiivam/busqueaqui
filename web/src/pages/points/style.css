@@ -7,7 +7,7 @@
 
 #page-map aside {
     width: 440px;
-    background: linear-gradient(329.54deg, #29b6d1 0%, #00c7c7 100%);
+    background: linear-gradient(329.54deg, rgba(255,140,1) 0%, #FDEF06 100%);
     padding: 80px;
 
     display: flex;
@@ -15,6 +15,10 @@
     justify-content: space-between;
 
 
+}
+
+#page-map aside img {
+    max-width: 65px;
 }
 
 #page-map aside h2 {

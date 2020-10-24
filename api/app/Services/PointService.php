@@ -68,7 +68,7 @@ class PointService
             $image = 'U-' . time() . '.' . $file_ext;
 
             if ($request->file('image')->move($destination_path, $image)) {
-                $pointer->image = '/public/upload/pointers/' . $image;
+                $pointer->image = '/upload/pointers/' . $image;
                 $saveImage = $this->imagePoint->create([
                     'point_id'  => $pointID,
                     'image'     => $image,

@@ -40,15 +40,6 @@ export default function Pointer(){
             <main>
                 <div className="orphanage-details">
                 <img src={`http://localhost:8080${point.path}`} alt={point.name} />
-
-                <div className="images">
-                    <button 
-                        className='active'
-                        type="button"
-                    >
-                        <img src={`http://localhost:8080${point.path}`} alt={point.name} />
-                    </button>
-                </div>
                 
                 <div className="orphanage-details-content">
                     <h1>{point.name}</h1>

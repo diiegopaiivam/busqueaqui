@@ -77,7 +77,7 @@ export default function Points(){
 
             </Map>
 
-            <Link to="/orphanage/create" className="create-orphanate">
+            <Link to="/point-create" className="create-orphanate">
                 <FiPlus size={32} color="#fff" />
             </Link>
         </div>
