@@ -96,3 +96,71 @@
 #page-landing .enter-app:hover {
     background: #96feff;
 }
+
+@media(max-width: 450px){
+    
+
+    #page-landing .content-wrapper {
+        position: relative;
+        width: 100%;
+        max-width: 1100px;
+        height: 100%;
+        max-height: 680px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-between;
+        background: none !important;
+    }
+
+    #page-landing .content-wrapper img {
+        margin: 25px auto;
+    }
+
+    #page-landing .content-wrapper .location{
+        display: none;
+    }
+
+    #page-landing .content-wrapper main h1 {
+        margin-top: -24px;
+        font-size: 45px;
+    }
+    
+    #page-landing .content-wrapper main p {
+        margin-top: -16px;
+        font-size: 20px;
+    }
+
+    #page-landing main {
+        max-width: 358px;
+        margin: -25px auto;
+    }
+
+    #page-landing .redirect select {
+        position: absolute;
+        left: 26px;
+        bottom: 24px;
+        padding-left: 16px;
+        border: none;
+        border-radius: 20px;
+        height: 80px;
+        width: 260px;
+        background-color: #f2f2f2;
+        color: gray;
+    }
+
+    #page-landing .enter-app {
+        position: absolute;
+        bottom: 24px;
+        right: 35px;
+        width: 80px;
+        height: 80px;
+        background: #ffd666;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background-color 0.2s;
+    }
+
+}

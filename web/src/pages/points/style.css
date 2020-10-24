@@ -101,3 +101,9 @@
 #page-map .map-popup .leaflet-popup-tip-container {
     display: none;
 }
+
+@media(max-width: 450px){
+    #page-map aside {
+        display: none;
+    }
+}
