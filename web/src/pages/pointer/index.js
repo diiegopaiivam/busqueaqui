@@ -39,7 +39,7 @@ export default function Pointer(){
 
             <main>
                 <div className="orphanage-details">
-                <img src={`http://localhost:8080${point.path}`} alt={point.name} />
+                <img src={`http://apibusqueaqui.devce.com.br/public${point.path}`} alt={point.name} />
                 
                 <div className="orphanage-details-content">
                     <h1>{point.name}</h1>
