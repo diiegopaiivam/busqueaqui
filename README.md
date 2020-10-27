@@ -56,7 +56,7 @@ O projeto tem como finalidade **estabelecer uma conexão** entre **pessoas** a *
 
   - **[Mysql][mysql]**
 
-  \* Veja o arquivo <kbd>[package.json](./api/package.json)</kbd>
+  \* Veja o arquivo <kbd>[package.json](./api/composer.json)</kbd>
 
 <!-- #### **Mobile** ([React Native][react_native] + [TypeScript][typescript]) -->
 
